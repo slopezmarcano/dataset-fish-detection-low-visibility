@@ -1,6 +1,7 @@
-# A Labelled Underwater Fish Dataset In Poor Visibility Conditions
+# An annotated dataset for automated detection and counting of estuarine fish in poor visibility conditions
 [![Powered by](https://img.shields.io/badge/Powered%20by-FishID-green)](https://globalwetlandsproject.org/tools/fishid/)
 ![Status](https://img.shields.io/badge/Status-Completed-green)
+[![DOI](https://zenodo.org/badge/346247747.svg)](https://zenodo.org/badge/latestdoi/346247747)
 
 
 # Table of Contents
@@ -79,6 +80,7 @@ The corresponding image is provided as an image filename. All image coordinated 
 Annotations are provided in both CSV format and COCO JSON format which is a commonly used data format for integration with object detection frameworks including PyTorch and TensorFlow. For more information on annotations files in COCO JSON and/or CSV formats go [here](https://github.com/globalwetlands/luderick-seagrass#coco-json).
 
 ## Attributions
-To attribute this database, please include the following citation.
+Please use 'CITATION.cff' to cite this dataset.
+
 We kindly request that the following text be included in an acknowledgements section at the end of your publications:
 "We would like to thank the Moreton Bay Environmental Education Centre for freely supplying us with the fish dataset for our research"

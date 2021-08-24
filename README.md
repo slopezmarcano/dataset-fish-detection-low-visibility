@@ -1,5 +1,7 @@
 # An annotated dataset for automated detection and counting of estuarine fish in poor visibility conditions
-[![Powered by](https://img.shields.io/badge/Powered%20by-FishID-green)](https://globalwetlandsproject.org/tools/fishid/)
+[![Powered by](https://img.shields.io/badge/Powered%20by-FishID-yellow)](https://globalwetlandsproject.org/tools/fishid/)
+[![In collaboration with](https://img.shields.io/badge/In%20collaboration%20with-Moreton%20Bay%20Environmental%20Education%20Centre-purple)](https://moretoneec.eq.edu.au/)
+[![Supported by](https://img.shields.io/badge/Supported%20by-AIForEarth-orange)](https://www.microsoft.com/en-us/ai/ai-for-earth)
 ![Status](https://img.shields.io/badge/Status-Completed-green)
 [![DOI](https://zenodo.org/badge/346247747.svg)](https://zenodo.org/badge/latestdoi/346247747)
 
@@ -16,6 +18,7 @@
 ## Overview
 Here we provide an open-access and annotated baited underwater dataset of poor and fair visibility videos for the development of fish detection models and benchmarking of image pre-processing tools. We provide the annotated training annotations and images, and a 12 hour testing dataset with groundtruth MaxN abundance for four target species.
 
+![alt text](https://github.com/slopezmarcano/dataset-fish-detection-low-visibility/blob/gh-pages/lowviz_suggestedannotations_mbeec.png)
 
 ## Uses
 This dataset can be used
@@ -24,6 +27,8 @@ This dataset can be used
 3. As a benchmark dataset to test image post-processing techniques (e.g. fish occlussion filters)
 4. To supplement global fish detection models (e.g. see [MegaDetector by Microsoft](https://github.com/microsoft/CameraTraps/blob/master/megadetector.md))
 5. To increase accessibility of underwater computer vision tools for aquatic monitoring and environmental science (e.g. see [lilascience](https://lila.science/))
+
+
 
 
 ## Datasets
@@ -71,7 +76,6 @@ The training dataset contains >65,000 segmentation mask annotations of 19 differ
 | Testing dataset | [Download 6.5 GB](https://research-storage.griffith.edu.au/owncloud/index.php/s/cnK1vOP6jPzt8PU) | NA | 1       | NA          | [Groundtruth](https://research-storage.griffith.edu.au/owncloud/index.php/s/cnK1vOP6jPzt8PU)|
 
 
-
 ## Annotations
 Each annotation includes object instance annotations which consists of the following key fields: Labels are provided as a common name: YellowfinBream for *Acanthopagrus australis*; bounding boxes that enclose the species in each frame are provided in "[x,y,width,height]" format, in pixel units; Segmentation masks which outline the species as a polygon are provided as a list of pixel coordinates in the format "9x,y,x,y,...]".
 
@@ -83,4 +87,8 @@ Annotations are provided in both CSV format and COCO JSON format which is a comm
 Please use 'CITATION.cff' to cite this dataset.
 
 We kindly request that the following text be included in an acknowledgements section at the end of your publications:
-"We would like to thank the Moreton Bay Environmental Education Centre for freely supplying us with the fish dataset for our research"
+
+"We would like to thank the Moreton Bay Environmental Education Centre for freely supplying us with the fish dataset for our research. The fish dataset was supported by an AI for Earth grant from Microsoft."
+
+![alt text](https://github.com/slopezmarcano/dataset-fish-detection-low-visibility/blob/gh-pages/GLOW_logo.png)
+![alt text](https://github.com/slopezmarcano/dataset-fish-detection-low-visibility/blob/gh-pages/mbeec_logo.png)

@@ -1,0 +1,39 @@
+# YAML 1.2
+---
+abstract: "An open-access and annotated baited underwater dataset of poor and fair visibility videos for the development of fish detection models and benchmarking of image pre-processing tools. We provide the annotated training annotations and images, and a 12-hour testing dataset with ground-truth MaxN abundance for four target species."
+authors: 
+  -
+    affiliation: "Quantitative Imaging Research Team, Data61, CSIRO and Coastal and Marine Research Centre, Griffith University, Australia "
+    family-names: "Lopez-Marcano"
+    given-names: Sebastian
+    orcid: "https://orcid.org/0000-0002-0814-2906"
+  -
+    affiliation: "Moreton Bay Environmental Education Centre, Queensland, Australia"
+    family-names: Roe
+    given-names: Tim
+  -
+    affiliation: "Coastal and Marine Research Centre, Griffith University, Australia"
+    family-names: Kitchingman
+    given-names: Michaela
+  -
+    affiliation: "Coastal and Marine Research Centre, Griffith University, Australia"
+    family-names: Jinks
+    given-names: Eric
+  -
+    affiliation: "Coastal and Marine Research Centre, Griffith University, Australia"
+    family-names: Connolly
+    given-names: Rod
+    orcid: "https://orcid.org/0000-0001-6223-1291"
+cff-version: "1.1.0"
+doi: "10.5281/zenodo.5238512"
+keywords: 
+  - "computer vision"
+  - "object detection"
+  - "deep learning"
+  - "aquatic monitoring"
+  - estuary
+message: "If you use this software, please cite it using these metadata."
+repository-code: "https://slopezmarcano.github.io/automated-fish-detection-in-low-visibility/"
+title: "An annotated dataset for automated detection and counting of estuarine fish in poor visibility conditions"
+version: "v1.1"
+...

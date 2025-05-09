@@ -1,8 +1,8 @@
 # An annotated dataset for automated detection and counting of estuarine fish in poor visibility conditions
+![Status](https://img.shields.io/badge/Status-SeeIssues-red)
 [![Powered by](https://img.shields.io/badge/Powered%20by-FishID-yellow)](https://globalwetlandsproject.org/tools/fishid/)
 [![In collaboration with](https://img.shields.io/badge/In%20collaboration%20with-Moreton%20Bay%20Environmental%20Education%20Centre-purple)](https://moretoneec.eq.edu.au/)
 [![Supported by](https://img.shields.io/badge/Supported%20by-AIForEarth-orange)](https://www.microsoft.com/en-us/ai/ai-for-earth)
-![Status](https://img.shields.io/badge/Status-Completed-green)
 [![DOI](https://zenodo.org/badge/346247747.svg)](https://zenodo.org/badge/latestdoi/346247747)
 
 
